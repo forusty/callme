@@ -21,7 +21,7 @@ Added --name callme to give the container a name for easier stopping, you can sw
 ## TTY
 To see the output running
 ```
-docker run -t callme:1.0
+docker run --name callme -t callme:1.0
 ```
 
 ## Fire and run in background (detached mode)
